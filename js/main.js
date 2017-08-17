@@ -1,4 +1,9 @@
+
+
 $(document).ready(function(){
+
+	$("#loading").css("visibility", "hidden");
+
 	$("#enter-button").on("click", function() {
 		$("#landing-page").css("visibility", "hidden");
 		$("#introduction-page").css("visibility", "visible");
@@ -60,5 +65,7 @@ $(document).ready(function(){
 	$(".exit-button").on("click", function() {
 		$(".project-detail").css("visibility", "hidden");
 		$("#detail-overlay").css("visibility", "hidden");
-	})
+	});
+
+	
 });
